@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+all-convert-frontend/node_modules
+all-convert-frontend/.pnp
+all-convert-frontend/.pnp.js
+
+# testing
+all-convert-frontend/coverage
+
+# production
+all-convert-frontend/build
+
+# misc
+all-convert-frontend/.DS_Store
+all-convert-frontend/.env.local
+all-convert-frontend/.env.development.local
+all-convert-frontend/.env.test.local
+all-convert-frontend/.env.production.local
+
+all-convert-frontend/npm-debug.log*
+all-convert-frontend/yarn-debug.log*
+all-convert-frontend/yarn-error.log*
+all-convert-backend/__pycache__
